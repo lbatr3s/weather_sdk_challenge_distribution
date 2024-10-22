@@ -1,0 +1,6 @@
+framework module Weather_SDK {
+  umbrella header "Weather_SDK.h"
+  export *
+
+  module * { export * }
+}

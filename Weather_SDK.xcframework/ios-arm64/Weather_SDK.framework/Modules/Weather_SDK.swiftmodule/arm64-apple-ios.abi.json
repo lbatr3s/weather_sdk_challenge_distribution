@@ -1,0 +1,969 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Weather_SDK",
+    "printedName": "Weather_SDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WeatherForecastViewController",
+        "printedName": "WeatherForecastViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Weather_SDK@objc(cs)WeatherForecastViewController(im)viewDidLoad",
+            "mangledName": "$s11Weather_SDK0A22ForecastViewControllerC11viewDidLoadyyF",
+            "moduleName": "Weather_SDK",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeatherForecastViewController",
+                "printedName": "Weather_SDK.WeatherForecastViewController",
+                "usr": "c:@M@Weather_SDK@objc(cs)WeatherForecastViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Weather_SDK@objc(cs)WeatherForecastViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s11Weather_SDK0A22ForecastViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "Weather_SDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Weather_SDK.WeatherForecastViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeatherForecastViewController",
+                    "printedName": "Weather_SDK.WeatherForecastViewController",
+                    "usr": "c:@M@Weather_SDK@objc(cs)WeatherForecastViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Weather_SDK@objc(cs)WeatherForecastViewController(im)initWithCoder:",
+            "mangledName": "$s11Weather_SDK0A22ForecastViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "Weather_SDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:numberOfRowsInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Weather_SDK@objc(cs)WeatherForecastViewController(im)tableView:numberOfRowsInSection:",
+            "mangledName": "$s11Weather_SDK0A22ForecastViewControllerC05tableD0_21numberOfRowsInSectionSiSo07UITableD0C_SitF",
+            "moduleName": "Weather_SDK",
+            "objc_name": "tableView:numberOfRowsInSection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:cellForRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITableViewCell",
+                "printedName": "UIKit.UITableViewCell",
+                "usr": "c:objc(cs)UITableViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Weather_SDK@objc(cs)WeatherForecastViewController(im)tableView:cellForRowAtIndexPath:",
+            "mangledName": "$s11Weather_SDK0A22ForecastViewControllerC05tableD0_12cellForRowAtSo07UITableD4CellCSo0kD0C_10Foundation9IndexPathVtF",
+            "moduleName": "Weather_SDK",
+            "objc_name": "tableView:cellForRowAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Weather_SDK@objc(cs)WeatherForecastViewController",
+        "mangledName": "$s11Weather_SDK0A22ForecastViewControllerC",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WeatherSDKDelegate",
+        "printedName": "WeatherSDKDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onFinished",
+            "printedName": "onFinished(controller:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WeatherForecastViewController",
+                "printedName": "Weather_SDK.WeatherForecastViewController",
+                "usr": "c:@M@Weather_SDK@objc(cs)WeatherForecastViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Weather_SDK0A11SDKDelegateP10onFinished10controlleryAA0A22ForecastViewControllerC_tF",
+            "mangledName": "$s11Weather_SDK0A11SDKDelegateP10onFinished10controlleryAA0A22ForecastViewControllerC_tF",
+            "moduleName": "Weather_SDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Weather_SDK.WeatherSDKDelegate>",
+            "sugared_genericSig": "<Self where Self : Weather_SDK.WeatherSDKDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFinishedWithError",
+            "printedName": "onFinishedWithError(_:controller:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WeatherForecastViewController",
+                "printedName": "Weather_SDK.WeatherForecastViewController",
+                "usr": "c:@M@Weather_SDK@objc(cs)WeatherForecastViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Weather_SDK0A11SDKDelegateP19onFinishedWithError_10controllerySS_AA0A22ForecastViewControllerCtF",
+            "mangledName": "$s11Weather_SDK0A11SDKDelegateP19onFinishedWithError_10controllerySS_AA0A22ForecastViewControllerCtF",
+            "moduleName": "Weather_SDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Weather_SDK.WeatherSDKDelegate>",
+            "sugared_genericSig": "<Self where Self : Weather_SDK.WeatherSDKDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11Weather_SDK0A11SDKDelegateP",
+        "mangledName": "$s11Weather_SDK0A11SDKDelegateP",
+        "moduleName": "Weather_SDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WeatherSDK",
+        "printedName": "WeatherSDK",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeatherSDK",
+                "printedName": "Weather_SDK.WeatherSDK",
+                "usr": "s:11Weather_SDK0aB0V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11Weather_SDK0aB0VACycfc",
+            "mangledName": "$s11Weather_SDK0aB0VACycfc",
+            "moduleName": "Weather_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "showForecastController",
+            "printedName": "showForecastController(viewController:cityName:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Weather_SDK.WeatherSDKDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeatherSDKDelegate",
+                    "printedName": "any Weather_SDK.WeatherSDKDelegate",
+                    "usr": "s:11Weather_SDK0A11SDKDelegateP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Weather_SDK0aB0V22showForecastController04viewE08cityName8delegateySo06UIViewE0C_SSAA0A11SDKDelegate_pSgtF",
+            "mangledName": "$s11Weather_SDK0aB0V22showForecastController04viewE08cityName8delegateySo06UIViewE0C_SSAA0A11SDKDelegate_pSgtF",
+            "moduleName": "Weather_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11Weather_SDK0aB0V",
+        "mangledName": "$s11Weather_SDK0aB0V",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "Weather_SDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/lester\/Documents\/Developer\/Carthage_Test\/Carthage\/Checkouts\/weather_sdk_challenge\/Weather SDK\/Sources\/Features\/Weather\/Modules\/Forecast\/Application Logic\/Interactor\/WeatherForecastInteractor.swift",
+      "kind": "Array",
+      "offset": 629,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lester\/Documents\/Developer\/Carthage_Test\/Carthage\/Checkouts\/weather_sdk_challenge\/Weather SDK\/Sources\/Features\/Weather\/Modules\/Forecast\/User Interface\/View\/Cell\/HourlyWeatherTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 204,
+      "length": 28,
+      "value": "\"HourlyWeatherTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/lester\/Documents\/Developer\/Carthage_Test\/Carthage\/Checkouts\/weather_sdk_challenge\/Weather SDK\/Sources\/Features\/Weather\/Modules\/Forecast\/User Interface\/View\/WeatherForecastViewController.swift",
+      "kind": "Array",
+      "offset": 714,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lester\/Documents\/Developer\/Carthage_Test\/Carthage\/Checkouts\/weather_sdk_challenge\/Weather SDK\/Sources\/Features\/Weather\/Modules\/Forecast\/User Interface\/View\/WeatherForecastViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 909,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/lester\/Documents\/Developer\/Carthage_Test\/Carthage\/Checkouts\/weather_sdk_challenge\/Weather SDK\/Sources\/Features\/Weather\/Modules\/Forecast\/User Interface\/View\/WeatherForecastViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1348,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lester\/Documents\/Developer\/Carthage_Test\/Carthage\/Checkouts\/weather_sdk_challenge\/Weather SDK\/Sources\/Features\/Weather\/Modules\/Forecast\/User Interface\/View\/WeatherForecastViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1913,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lester\/Documents\/Developer\/Carthage_Test\/Carthage\/Checkouts\/weather_sdk_challenge\/Weather SDK\/Sources\/Features\/Weather\/Modules\/Forecast\/User Interface\/View\/WeatherForecastViewController.swift",
+      "kind": "Array",
+      "offset": 2205,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lester\/Documents\/Developer\/Carthage_Test\/Carthage\/Checkouts\/weather_sdk_challenge\/Weather SDK\/Sources\/Features\/Weather\/Modules\/Forecast\/User Interface\/View\/WeatherForecastViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2535,
+      "length": 31,
+      "value": "\"WeatherForecastViewController\""
+    },
+    {
+      "filePath": "\/Users\/lester\/Documents\/Developer\/Carthage_Test\/Carthage\/Checkouts\/weather_sdk_challenge\/Weather SDK\/Sources\/Networking\/Model\/Hourly\/HourlyWeatherRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 263,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/lester\/Documents\/Developer\/Carthage_Test\/Carthage\/Checkouts\/weather_sdk_challenge\/Weather SDK\/Sources\/Networking\/Model\/Weather\/WeatherData.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 11,
+      "value": "\"city_name\""
+    },
+    {
+      "filePath": "\/Users\/lester\/Documents\/Developer\/Carthage_Test\/Carthage\/Checkouts\/weather_sdk_challenge\/Weather SDK\/Sources\/Networking\/Model\/Weather\/WeatherData.swift",
+      "kind": "StringLiteral",
+      "offset": 257,
+      "length": 6,
+      "value": "\"temp\""
+    },
+    {
+      "filePath": "\/Users\/lester\/Documents\/Developer\/Carthage_Test\/Carthage\/Checkouts\/weather_sdk_challenge\/Weather SDK\/Sources\/Networking\/Model\/Weather\/WeatherData.swift",
+      "kind": "StringLiteral",
+      "offset": 313,
+      "length": 4,
+      "value": "\"ts\""
+    },
+    {
+      "filePath": "\/Users\/lester\/Documents\/Developer\/Carthage_Test\/Carthage\/Checkouts\/weather_sdk_challenge\/Weather SDK\/Sources\/Networking\/Model\/Weather\/WeatherData.swift",
+      "kind": "StringLiteral",
+      "offset": 348,
+      "length": 17,
+      "value": "\"timestamp_local\""
+    },
+    {
+      "filePath": "\/Users\/lester\/Documents\/Developer\/Carthage_Test\/Carthage\/Checkouts\/weather_sdk_challenge\/Weather SDK\/Sources\/SDK\/WeatherSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 764,
+      "length": 9,
+      "value": "\"Weather\""
+    },
+    {
+      "filePath": "\/Users\/lester\/Documents\/Developer\/Carthage_Test\/Carthage\/Checkouts\/weather_sdk_challenge\/Weather SDK\/Sources\/Services\/NetworkingService.swift",
+      "kind": "StringLiteral",
+      "offset": 175,
+      "length": 27,
+      "value": "\"https:\/\/api.weatherbit.io\""
+    },
+    {
+      "filePath": "\/Users\/lester\/Documents\/Developer\/Carthage_Test\/Carthage\/Checkouts\/weather_sdk_challenge\/Weather SDK\/Sources\/Services\/NetworkingService.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 34,
+      "value": "\"b2378f9592f142e4981d0c92b85ac9c8\""
+    },
+    {
+      "filePath": "\/Users\/lester\/Library\/Caches\/org.carthage.CarthageKit\/DerivedData\/16.0_16A242d\/weather_sdk_challenge\/52334dc8a66df95eb5f73e5d1c05cf27bc6476ad\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Weather SDK\/IntermediateBuildFilesPath\/Weather SDK.build\/Release-iphoneos\/Weather SDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 620,
+      "length": 8,
+      "value": "\"accent\""
+    },
+    {
+      "filePath": "\/Users\/lester\/Library\/Caches\/org.carthage.CarthageKit\/DerivedData\/16.0_16A242d\/weather_sdk_challenge\/52334dc8a66df95eb5f73e5d1c05cf27bc6476ad\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Weather SDK\/IntermediateBuildFilesPath\/Weather SDK.build\/Release-iphoneos\/Weather SDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 772,
+      "length": 19,
+      "value": "\"accentHighlighted\""
+    },
+    {
+      "filePath": "\/Users\/lester\/Library\/Caches\/org.carthage.CarthageKit\/DerivedData\/16.0_16A242d\/weather_sdk_challenge\/52334dc8a66df95eb5f73e5d1c05cf27bc6476ad\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Weather SDK\/IntermediateBuildFilesPath\/Weather SDK.build\/Release-iphoneos\/Weather SDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 921,
+      "length": 12,
+      "value": "\"textBorder\""
+    },
+    {
+      "filePath": "\/Users\/lester\/Library\/Caches\/org.carthage.CarthageKit\/DerivedData\/16.0_16A242d\/weather_sdk_challenge\/52334dc8a66df95eb5f73e5d1c05cf27bc6476ad\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Weather SDK\/IntermediateBuildFilesPath\/Weather SDK.build\/Release-iphoneos\/Weather SDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1073,
+      "length": 17,
+      "value": "\"textPlaceholder\""
+    },
+    {
+      "filePath": "\/Users\/lester\/Library\/Caches\/org.carthage.CarthageKit\/DerivedData\/16.0_16A242d\/weather_sdk_challenge\/52334dc8a66df95eb5f73e5d1c05cf27bc6476ad\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Weather SDK\/IntermediateBuildFilesPath\/Weather SDK.build\/Release-iphoneos\/Weather SDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1222,
+      "length": 13,
+      "value": "\"textPrimary\""
+    },
+    {
+      "filePath": "\/Users\/lester\/Library\/Caches\/org.carthage.CarthageKit\/DerivedData\/16.0_16A242d\/weather_sdk_challenge\/52334dc8a66df95eb5f73e5d1c05cf27bc6476ad\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Weather SDK\/IntermediateBuildFilesPath\/Weather SDK.build\/Release-iphoneos\/Weather SDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1371,
+      "length": 15,
+      "value": "\"textSecondary\""
+    }
+  ]
+}
