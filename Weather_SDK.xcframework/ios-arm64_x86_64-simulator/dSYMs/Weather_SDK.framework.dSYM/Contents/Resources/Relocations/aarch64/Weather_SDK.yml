@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/lester/Library/Caches/org.carthage.CarthageKit/DerivedData/16.0_16A242d/weather_sdk_challenge/52334dc8a66df95eb5f73e5d1c05cf27bc6476ad/Build/Products/Release-iphonesimulator/Weather_SDK.framework/Weather_SDK'
+binary-path:     '/Users/lester/Library/Caches/org.carthage.CarthageKit/DerivedData/16.0_16A242d/weather_sdk_challenge/eff575ef62cebb4f2e976004b74ee001bc608de8/Build/Products/Release-iphonesimulator/Weather_SDK.framework/Weather_SDK'
 relocations:
   - { offset: 0x59AEA, size: 0x8, addend: 0x0, symName: _Weather_SDKVersionString, symObjAddr: 0x0, symBinAddr: 0xE2C0, symSize: 0x0 }
   - { offset: 0x59B1F, size: 0x8, addend: 0x0, symName: _Weather_SDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0xE2F0, symSize: 0x0 }
